@@ -1,0 +1,16 @@
+Algoritmo Suma
+	Escribir "Ingrese el primer numero"
+	Leer A
+	Escribir "ingrese el segundo numero"
+	Leer B
+	C <- A+B
+	D <- A-B
+	E <- A*B
+	F <- A/B
+	
+	Escribir "la suma de A+B=C",  C
+	Escribir "la resta de A-B=D", D
+	Escribir "la multiplicacion de A*B=E", E
+	Escribir "la division de A/B=F", F
+FinAlgoritmo
+
