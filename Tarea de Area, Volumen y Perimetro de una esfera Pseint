@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir P,D,V,A Como Real;
+	Escribir "Ingrese D";
+	Leer D;
+	P <- 3.14*D;
+	Escribir " P es igual a:", P;
+	A<- 3.14*(D*D/4);
+	Escribir " A es igual a:", A;
+	V<- (4/3)*(3.14*(D*D*D/8));
+	Escribir " V es igual a:", V;
+	
+	
+	
+	
+FinAlgoritmo
