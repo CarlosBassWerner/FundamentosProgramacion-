@@ -1,0 +1,13 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	int R = 3.14;
+	int Diametro;std::cout << "Ingrese el valor de diametro:";
+	cin >> Diametro;
+	cout << "El valor de la circuferencia es:" << R * Diametro << std::endl;
+	cout << "El valor del Area del circulo es:" << R * Diametro * Diametro / 4 << std::endl;
+	cout << "El valor del volumen es:" << R * Diametro * Diametro * Diametro / 6 << std::endl;
+	return 0;
+} 
