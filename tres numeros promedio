@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    float A, B, C;
+    cout << "Ingrese el primer número: ";
+    cin >> A;
+    cout << "Ingrese el segundo número: ";
+    cin >>B;
+    cout << "Ingrese el tercer número: ";
+    cin >>C;
+    if (A >= 0 && A <= 10 &&
+        B>= 0 && B <= 10 &&
+        C>= 0 && C <= 10) {
+
+        float promedio = (A + B+ C) / 3;
+        cout << "El promedio es: " << promedio << endl;
+
+    } else {
+
+  if (A< 0 || A> 10)
+            cout << "El primer número está fuera de rango." << endl;
+  if (B < 0 || B > 10)
+            cout << "El segundo número está fuera de rango." << endl;
+  if (C < 0 || C > 10)
+            cout << "El tercer número está fuera de rango." << endl;
+
+        cout << "No se puede calcular el promedio en valores no dentro del rango." << endl;
+    }
+
+    return 0;
+}
