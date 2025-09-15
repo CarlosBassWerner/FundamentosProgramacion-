@@ -1,0 +1,8 @@
+
+'''
+pi = 3.1416
+r= float(input ("Ingrese el radio"))
+perimetro=2*pi*r
+area=pi*r**2
+print("perimetro igual a: ",perimetro)
+print("Area del circulo: ", area)
