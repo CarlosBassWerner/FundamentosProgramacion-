@@ -2,13 +2,11 @@
 using namespace std;
 int main()
 {
-int SB,BT,BA;
-cout<<"Ingrese un sueldo basico: ";
-cin>>SB;
-cout<<"Ingrese un bono trasporte: ";
-cin>>BT;
-cout<<"Ingrese una bonificacion: ";
-cin>>BA;
-int SF=SB+BT+BA;
-cout<<"el sueldo final es: "<<SF;
+int NF;
+cout<<"Ingrese su nota final: ";
+cin>>NF;
+if (NF>=51) {
+cout<<"aprobaste";
+}else
+cout<<"reprobaste";
 }
