@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    int factorial = 1;
+    cout << "Dame un valor n: ";
+    cin >> n;
+    while (n < 0) {
+        cout << "El número debe ser mayor o igual a 0. Intente de nuevo: ";
+        cin >> n;
+    }
+    for (int i = 1; i <= n; i++) {
+        factorial *= i;
+    }
+    cout << "El factorial de " << n << " es " << factorial << endl;
+    return 0;
+}
