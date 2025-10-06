@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+        int numero;
+    cout << "Ingresa un numero entero: ";
+    cin >> numero;
+    int numero_copia = numero;
+    int complemento = 0;
+    int lugar = 1;
+    while (numero_copia > 0) {
+        int digito = numero_copia % 10;       
+        int comp = 9 - digito;               
+        complemento += comp * lugar;          
+        numero_copia /= 10;
+        lugar *= 10;
+    }
+    cout << "Complemento a 9: " << complemento << endl;
+    return 0;
+}
