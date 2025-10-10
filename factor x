@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+  int N,i;
+  double x,suma=0,potencia=1;
+  cout<<"Ingrese N: ";
+  cin>>N;
+  cout<<"ingrese x:";
+  cin>>x;  
+  for(i=1; i<=N; i++){
+  potencia=potencia*x;
+  suma=suma+potencia;
+  }
+  cout<< "La suma de la serie es: "<<suma<<endl;
+    return 0;
+}
