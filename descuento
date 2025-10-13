@@ -1,0 +1,18 @@
+
+#include <iostream>
+using namespace std;
+int main()
+{
+float bono,Total;
+do{
+cout<<"Ingrese el total que pagaste: ";
+cin>>Total;
+} while (Total<=0);
+ if (Total>300) {
+     bono= (Total*0.10);
+     int Precionew= Total - bono;
+     cout<<"El precio seria: "<<Precionew<<endl;
+ } else 
+    cout<<"el total es: "<<Total<<endl;
+    return 0;
+}
